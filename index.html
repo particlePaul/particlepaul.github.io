@@ -1,0 +1,39 @@
+<!doctype html>
+<meta
+  http-equiv="refresh"
+  content="4; url=https://stackoverflow.com/cv/prologue"
+/>
+<body>
+<style>
+html, body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  background: black;
+}
+body {
+  background: url(https://i.stack.imgur.com/TaLKK.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  animation-name: pop-out;
+  animation-duration: 4s;
+  animation-timing-function: ease-in;
+  animation-fill-mode: forwards;
+  opacity: 1.0;
+}
+  
+@keyframes pop-out {
+  0% {
+    background-size: 10%;
+    opacity: 1.0;
+  }
+  90% {
+    opacity: 1.0;
+  }
+  100% {
+    background-size: 200%;
+    opacity: 0.0;
+  }
+}
+</style>
